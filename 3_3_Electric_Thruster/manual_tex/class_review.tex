@@ -1,0 +1,27 @@
+% \special{dvipdfmx:config z 0} % 取消PDF压缩，加快速度但会极大增加文件体积，最终版本生成的时候最好把这句话注释掉
+
+\documentclass{mynotes}
+
+% 文档信息
+\title{\Huge 电推进技术学习笔记}
+\author{作者姓名}
+\date{\today}
+
+\begin{document}
+
+% 封面
+\maketitle
+\thispagestyle{empty}
+\newpage
+
+% 目录
+\tableofcontents
+\newpage
+
+% 正文内容
+\include{chaps/chap01_overview}
+\include{chaps/chap02_ion_thruster}
+\include{chaps/chap03_hollow_cathode}
+\include{chaps/chap04_hall_thruster}
+
+\end{document}

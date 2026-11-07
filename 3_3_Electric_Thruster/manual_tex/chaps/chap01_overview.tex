@@ -1,0 +1,85 @@
+\chapter{电推进系统综述}
+
+\section{概述}
+
+\subsection{电推进装置}
+
+通过电离工质气体产生等离子体，并通过电能注入能量使工质或等离子体加速。
+\begin{itemize}
+    \item 电推进的本质是等离子体推进
+    \item 电推进的核心在于电离与加速原理的差异
+\end{itemize}
+
+\subsection{等离子体分类}
+
+\begin{itemize}
+    \item 低温等离子体（能量小于1eV）
+    \begin{itemize}
+        \item 冷等离子体（极光、日光灯、离子推力器）： $T_e \neq T_i$ （一般处于 $\frac{T_e}{T_i} = 10 \thicksim 100$）
+        \item 热等离子体（电弧、碘钨灯）： $T_e = T_i$
+    \end{itemize}
+    \item 高温等离子体（聚变）：$T_e= T_i$
+\end{itemize}
+
+\subsection{等离子体产生}
+
+\begin{itemize}
+    \item \textbf{直流电弧放电}：电弧加热推力器——在高压、大电流环境下产生热等离子体
+    \item \textbf{直流辉光放电}：电子轰击式离子推力器——在低压环境下产生冷等离子体
+    \item \textbf{微波ECR等离子体}：ECR离子推力器——在0.1T的磁场环境中以1kW的功率输入2.45GHz微波，对电子产生回旋共振加速，产生冷等离子体，在极低的压强下也可以产生高密度等离子体
+    \item \textbf{射频容性耦合等离子体}：通过外部施加的高频电场实现对于放电腔内部的电子加速产生电离
+    \item \textbf{射频感应耦合等离子体}：在放电腔中通过射频天线输入13.56MHz的高频电流；\textbf{感应耦合等离子体}原理：射频天线产生的交变磁场产生感应电场，利用交变电场加速电子从而形成电离
+    \item \textbf{螺旋波等离子体}
+    \item \textbf{沿面放电}：当带电体的电位超过一定阈值之后便会在固体介质表面和真空的交界面上出现沿面放电现象。
+\end{itemize}
+
+\subsection{等离子体加速形式}
+
+\begin{itemize}
+    \item 电热加速
+    \item 静电加速
+    \item 电磁加速
+\end{itemize}
+
+\subsection{推力器基本参数}
+
+\subsubsection{推力}
+\[
+    T = \dot{m} v_e \approx \dot{m_i} v_i
+\]
+其中原始公式中 $v_e$ 表示排气速度； $m_i$ 为离子质量，$v_i$ 为离子速度。
+
+\subsubsection{总冲与比冲}
+
+\begin{itemize}
+    \item 总冲：推进系统在一定时间内对航天器产生的总冲量
+    \[
+        I_t = \int_0^t T \, dt
+    \]
+    \item 比冲：单位质量推进剂产生的总冲量
+    \[
+        T_{sp} = \frac{I_t}{Mg} = \frac{T}{\dot{m} g_0} = \frac{v_e}{g_0}
+    \]
+\end{itemize}
+
+\subsubsection{功率与效率}
+
+\begin{itemize}
+    \item 喷气功率：
+    \[
+        P_{jet} = \frac{1}{2} \dot{m} v_e^2 = \frac{T^2}{2\dot{m}}
+    \]
+    \item 总效率：
+    \[
+        \eta_t = \frac{P_{jet}}{P_{in}} =
+                 \frac{T^2}{2\dot{m} P_{in}} = 
+                 \frac{T I_{sp} g}{2P_{in}}
+    \]
+\end{itemize}
+
+\subsubsection{电源处理单元（PPU）的比质量}
+
+电源处理单元的质量与供电功率之比成正比，与喷气速度的平方成反比，记电源处理单元的比质量为 $\alpha$， 电推进的总效率为 $\eta_t$，则供电电源的质量可以表示为：
+\[
+    m_E = \alpha P_{in} = \frac{\alpha T v_e }{2 \eta_t} = \frac{\alpha \dot{m} v_e^2 }{2 \eta_t}
+\]

@@ -1,0 +1,246 @@
+{
+  "files": {
+    "raw/第2课-等离子体放电与电推进.pptx": {
+      "ref": "REF-0001",
+      "hash": "c93b67f9f3039ff6",
+      "entries": [
+        "wiki/entries/等离子体与电推进概述.md",
+        "wiki/entries/等离子体产生方法.md",
+        "wiki/entries/等离子体加速形式.md",
+        "wiki/entries/电推进基本性能参数.md",
+        "wiki/entries/电推进分类.md"
+      ]
+    },
+    "raw/第3课-离子推进_1.pptx": {
+      "ref": "REF-0002",
+      "hash": "31cbffc3a7d19fb7",
+      "entries": [
+        "wiki/entries/离子推进的地位与特点.md",
+        "wiki/entries/离子推力器的分类与组成.md",
+        "wiki/entries/电子轰击式离子推力器工作原理.md",
+        "wiki/entries/微波电子回旋共振式离子推力器工作原理.md",
+        "wiki/entries/射频式离子推力器工作原理.md",
+        "wiki/entries/三类离子推力器优缺点对比.md",
+        "wiki/entries/典型离子推力器型号概览.md",
+        "wiki/entries/国外离子推进发展历程.md",
+        "wiki/entries/美国早期离子推力器发展.md",
+        "wiki/entries/XIPS系列氙离子推力器.md",
+        "wiki/entries/NSTAR离子推力器与深空探测.md",
+        "wiki/entries/NEXT进化型氙离子推力器.md",
+        "wiki/entries/全电推进卫星.md",
+        "wiki/entries/MEV在轨维护飞行器.md",
+        "wiki/entries/微型射频离子推力器BIT3.md",
+        "wiki/entries/英国离子推力器T5与T6.md",
+        "wiki/entries/BepiColombo水星探测器.md",
+        "wiki/entries/德国RIT系列射频离子推力器.md",
+        "wiki/entries/碘工质射频离子推力器NPT30-I2.md",
+        "wiki/entries/日本离子推力器发展.md",
+        "wiki/entries/中国离子推力器发展历程.md"
+      ]
+    },
+    "raw/第4课-离子推进_2.pptx": {
+      "ref": "REF-0003",
+      "hash": "798d7cc6b1b19e5c",
+      "entries": [
+        "wiki/entries/放电室的结构与组成.md",
+        "wiki/entries/离子推力器的配电.md",
+        "wiki/entries/放电室磁场的作用与构型.md",
+        "wiki/entries/放电室性能参数.md",
+        "wiki/entries/放电室等离子体组成与分布.md",
+        "wiki/entries/放电室电流的组成与获取.md",
+        "wiki/entries/栅极系统的组成与功能.md",
+        "wiki/entries/栅极束流的引出与聚焦.md",
+        "wiki/entries/栅极束流密度极限.md",
+        "wiki/entries/电子回流.md",
+        "wiki/entries/电荷交换离子与栅极腐蚀.md",
+        "wiki/entries/栅极间短路问题.md"
+      ]
+    },
+    "raw/第5课-离子推进_3.pptx": {
+      "ref": "REF-0004",
+      "hash": "06dd6e9b2555f4d7",
+      "entries": [
+        "wiki/entries/离子推力器设计总体思路与参数选择.md",
+        "wiki/entries/放电室磁场设计准则.md",
+        "wiki/entries/栅极组件设计思路.md",
+        "wiki/entries/环形会切场放电室概述与工作参数.md",
+        "wiki/entries/环形会切场放电室几何参数设计.md",
+        "wiki/entries/环形会切场磁路磁场设计与优化.md",
+        "wiki/entries/柱形会切场放电室概述与参数设计.md",
+        "wiki/entries/柱形会切场磁路磁场设计与优化.md",
+        "wiki/entries/栅极组件几何参数设计.md",
+        "wiki/entries/栅极组件束流引出性能设计.md",
+        "wiki/entries/栅极组件安装设计.md",
+        "wiki/entries/离子推力器耦合匹配设计.md"
+      ]
+    },
+    "raw/第6课-空心阴极.pptx": {
+      "ref": "REF-0005",
+      "hash": "9e0f1f0616f6e34a",
+      "entries": [
+        "wiki/entries/发射体材料.md",
+        "wiki/entries/空心阴极概述.md",
+        "wiki/entries/空心阴极工作过程与原理.md",
+        "wiki/entries/空心阴极结构.md",
+        "wiki/entries/空心阴极配电.md",
+        "wiki/entries/空心阴极放电特性与放电模式.md",
+        "wiki/entries/空心阴极构型与加热机制.md",
+        "wiki/entries/空心阴极寿命.md",
+        "wiki/entries/空心阴极设计概述.md",
+        "wiki/entries/空心阴极组件设计.md",
+        "wiki/entries/空心阴极仿真与试验验证.md",
+        "wiki/entries/空心阴极工程样机与飞行样机.md"
+      ]
+    },
+    "raw/第7课-霍尔推力器_1.pptx": {
+      "ref": "REF-0006",
+      "hash": "d3fafb33d0e1484b",
+      "entries": [
+        "wiki/entries/霍尔推力器概述.md",
+        "wiki/entries/霍尔推力器工作原理.md",
+        "wiki/entries/霍尔推力器基本组成.md",
+        "wiki/entries/霍尔推力器性能指标.md",
+        "wiki/entries/霍尔推力器物理过程.md"
+      ]
+    },
+    "raw/第8课-霍尔推力器_2.pptx": {
+      "ref": "REF-0007",
+      "hash": "f432a9fa005435bd",
+      "entries": [
+        "wiki/entries/霍尔推力器磁场技术.md",
+        "wiki/entries/霍尔推力器放电振荡.md",
+        "wiki/entries/霍尔推力器磁屏蔽技术.md",
+        "wiki/entries/SPT推力器类型对比.md",
+        "wiki/entries/霍尔推力器原理样机总体设计.md",
+        "wiki/entries/霍尔推力器放电室设计.md",
+        "wiki/entries/霍尔推力器磁路系统设计.md",
+        "wiki/entries/霍尔推力器阳极与气体分配器设计.md",
+        "wiki/entries/霍尔推力器绝缘设计.md",
+        "wiki/entries/霍尔推力器在轨应用概况.md",
+        "wiki/entries/俄罗斯与欧洲霍尔推力器应用.md",
+        "wiki/entries/美国霍尔推力器应用.md",
+        "wiki/entries/中国霍尔推力器研究与应用.md",
+        "wiki/entries/霍尔推力器发展趋势.md",
+        "wiki/entries/小卫星电推进应用.md",
+        "wiki/entries/CANOPUS-V遥感卫星推进系统.md"
+      ]
+    },
+    "raw/第12课-电推进系统(储供_PPU_DCIU).pptx": {
+      "ref": "REF-0008",
+      "hash": "963403a4b64875c6",
+      "entries": [
+        "wiki/entries/电推进系统概述.md",
+        "wiki/entries/离子推进系统的组成.md",
+        "wiki/entries/推进剂的选择.md",
+        "wiki/entries/推进剂储供系统XFS概述.md",
+        "wiki/entries/Bang-Bang电子减压器.md",
+        "wiki/entries/热节流流量控制器.md",
+        "wiki/entries/节流元件-烧结型多孔材料.md",
+        "wiki/entries/节流元件-迷宫型流量控制器.md",
+        "wiki/entries/三代氙气贮供系统.md",
+        "wiki/entries/比例阀电子减压器.md",
+        "wiki/entries/推进剂高电压隔离器.md",
+        "wiki/entries/电源处理单元PPU概述.md",
+        "wiki/entries/空心阴极配电.md",
+        "wiki/entries/束流屏栅极电源.md",
+        "wiki/entries/放电阳极电源.md",
+        "wiki/entries/加速栅极及加热器电源.md",
+        "wiki/entries/放电室与中和器点火电源.md",
+        "wiki/entries/NSTAR-PPU组成原理.md",
+        "wiki/entries/数字控制与接口单元DCIU概述.md",
+        "wiki/entries/DCIU中央处理器.md",
+        "wiki/entries/DCIU阀驱动板.md",
+        "wiki/entries/DCIU数据采集系统.md",
+        "wiki/entries/DCIU与PPU接口卡.md",
+        "wiki/entries/DCIU飞行操作软件.md",
+        "wiki/entries/DCIU故障检测.md",
+        "wiki/entries/推力方向调节装置.md",
+        "wiki/entries/离子推进系统部件的集成.md"
+      ]
+    },
+    "raw/第13课-电推进系统与卫星的集成.pptx": {
+      "ref": "REF-0009",
+      "hash": "5a85c2d72b916e9c",
+      "entries": [
+        "wiki/entries/电推进与卫星集成概述.md",
+        "wiki/entries/离子推力器布局与安装原则.md",
+        "wiki/entries/Artemis卫星离子推进系统.md",
+        "wiki/entries/离子推力器布局方案对比.md",
+        "wiki/entries/Boeing-702平台XIPS离子推进系统.md",
+        "wiki/entries/电推进应用方式与控制策略.md",
+        "wiki/entries/离子推进对电源系统的影响.md",
+        "wiki/entries/离子推进对热控系统的影响.md",
+        "wiki/entries/离子推进羽流影响与电磁兼容.md",
+        "wiki/entries/深空一号探测器与NSTAR离子推进.md",
+        "wiki/entries/GOCE卫星与T5离子推力器.md",
+        "wiki/entries/Bepi-Colombo水星探测器与T6离子推进.md",
+        "wiki/entries/日本隼鸟号与μ10微波离子推进系统.md",
+        "wiki/entries/在轨维护飞行器MEV.md"
+      ]
+    },
+    "raw/第9课-电喷雾微推进.ppt": {
+      "ref": "REF-0010",
+      "hash": "6b3bc04555302505",
+      "entries": [
+        "wiki/entries/电喷雾微推进概述.md",
+        "wiki/entries/离子液体推进剂.md",
+        "wiki/entries/离子液体电喷雾推力器.md",
+        "wiki/entries/场发射电推进FEEP.md",
+        "wiki/entries/胶质推力器.md",
+        "wiki/entries/LISA计划与无拖曳技术.md"
+      ]
+    },
+    "raw/第10课-脉冲等离子体推力器和真空电弧推力器.pptx": {
+      "ref": "REF-0011",
+      "hash": "d305e7198595ef09",
+      "entries": [
+        "wiki/entries/脉冲等离子体推力器概述.md",
+        "wiki/entries/脉冲等离子体推力器工作过程与原理.md",
+        "wiki/entries/脉冲等离子体推力器主要特点.md",
+        "wiki/entries/脉冲等离子体推力器结构组成.md",
+        "wiki/entries/脉冲等离子体推力器推进剂与供给系统.md",
+        "wiki/entries/脉冲等离子体推力器储能电容器.md",
+        "wiki/entries/脉冲等离子体推力器点火系统.md",
+        "wiki/entries/脉冲等离子体推力器电源控制与遥测分系统.md",
+        "wiki/entries/脉冲等离子体推力器放电回路.md",
+        "wiki/entries/脉冲等离子体推力器性能参数.md",
+        "wiki/entries/脉冲等离子体推力器设计过程.md",
+        "wiki/entries/脉冲等离子体推力器发展问题与对策.md",
+        "wiki/entries/真空电弧推力器概述.md",
+        "wiki/entries/真空电弧现象及其历史.md",
+        "wiki/entries/真空电弧推力器结构与工作过程.md",
+        "wiki/entries/真空电弧推力器电感储能电路.md",
+        "wiki/entries/真空电弧推力器技术特点.md",
+        "wiki/entries/真空电弧推力器应用情况.md",
+        "wiki/entries/脉冲等离子体推力器与真空电弧推力器比较.md",
+        "wiki/entries/Dawgstar卫星脉冲等离子体推进系统.md"
+      ]
+    },
+    "raw/第11课-电弧加热推力器和磁等离子体动力推力器.pptx": {
+      "ref": "REF-0012",
+      "hash": "2a709e68440e6c2b",
+      "entries": [
+        "wiki/entries/电弧加热推力器概述.md",
+        "wiki/entries/电弧加热推力器典型任务应用.md",
+        "wiki/entries/电弧加热推力器国内研究.md",
+        "wiki/entries/电弧加热推力器流动通道工作机制.md",
+        "wiki/entries/电弧加热推力器能量分配与损失.md",
+        "wiki/entries/电弧加热推力器冷却方式.md",
+        "wiki/entries/电弧加热推力器结构设计.md",
+        "wiki/entries/电弧加热推力器材料选择.md",
+        "wiki/entries/磁等离子体动力推力器概述.md",
+        "wiki/entries/磁等离子体动力推力器工作机制.md",
+        "wiki/entries/自身场磁等离子体动力推力器.md",
+        "wiki/entries/附加场磁等离子体动力推力器.md",
+        "wiki/entries/MPDT Onset现象.md",
+        "wiki/entries/磁等离子体动力推力器典型设计.md",
+        "wiki/entries/美国磁等离子体动力推力器研究.md",
+        "wiki/entries/德国磁等离子体动力推力器研究.md",
+        "wiki/entries/日本磁等离子体动力推力器研究.md",
+        "wiki/entries/中国磁等离子体动力推力器研究.md",
+        "wiki/entries/磁等离子体动力推力器总结与展望.md"
+      ]
+    }
+  },
+  "nextRef": 13
+}

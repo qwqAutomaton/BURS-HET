@@ -1,0 +1,88 @@
+{
+    // LaTeX Workshop 自动编译设置
+    "latex-workshop.latex.autoBuild.run": "onFileChange",
+    "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": "true",
+    "latex-workshop.latex.autoBuild.interval": 1000,
+    
+    // 编译工具链（使用 XeLaTeX）
+    "latex-workshop.latex.tools": [
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ]
+        }
+    ],
+    
+    // 编译配方（xelatex -> bibtex -> xelatex -> xelatex）
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "XeLaTeX",
+            "tools": [
+                "xelatex"
+            ]
+        },
+        {
+            "name": "XeLaTeX -> BibTeX -> XeLaTeX x2",
+            "tools": [
+                "xelatex",
+                "bibtex",
+                "xelatex",
+                "xelatex"
+            ]
+        }
+    ],
+    
+    // 默认使用第一个配方
+    "latex-workshop.latex.recipe.default": "lastUsed",
+    
+    // PDF 查看器设置
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.view.pdf.zoom": "page-width",
+    
+    // 同步预览（正向/反向搜索）
+    "latex-workshop.synctex.afterBuild.enabled": true,
+    
+    // 每次编译成功后自动清理辅助文件
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.ist",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk",
+        "*.synctex.gz"
+    ],
+    
+    // 消息提示
+    "latex-workshop.message.error.show": true,
+    "latex-workshop.message.warning.show": true,
+    
+    // 主文件设置（指向 manual_tex/main.tex）
+    "latex-workshop.latex.rootFile": "${workspaceFolder}/manual_tex/main.tex"
+}

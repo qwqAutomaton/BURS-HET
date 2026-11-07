@@ -1,0 +1,12 @@
+{
+  "skills": {
+    "build-wiki": {
+      "path": ".claude/skills/build-wiki/SKILL.md",
+      "description": "从 raw 目录原始文件构建 wiki 知识库"
+    },
+    "gen-report": {
+      "path": ".claude/skills/gen-report/SKILL.md",
+      "description": "基于 wiki 知识库和 raw 原始文献生成严谨的书面报告并编译为 PDF"
+    }
+  }
+}
